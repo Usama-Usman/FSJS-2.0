@@ -1,0 +1,90 @@
+/* Universal Setting */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f9f5ed;
+}
+
+/* Nav Section */
+
+nav {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  list-style: none;
+  gap: 70px;
+}
+
+nav ul li img {
+  width: 90px;
+  cursor: pointer;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+}
+
+/* Hero Section */
+
+.section-hero {
+  width: 80%;
+  margin: 0 auto;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  width: 100%;
+}
+
+.hero-content h1 {
+  font-size: 50px;
+  margin: 50px 0 30px 0;
+}
+
+.hero-content p {
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #3c5f69;
+}
+
+.btn-learnmore {
+  background: none;
+  border: none;
+  border-radius: 7px;
+  background-color: #3b855b;
+  color: #fff;
+  padding: 12px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.first-img {
+  margin-right: 20px;
+}
+
+.first-img,
+.second-img {
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 220px;
+}
+
+.third-img {
+  width: 470px;
+}

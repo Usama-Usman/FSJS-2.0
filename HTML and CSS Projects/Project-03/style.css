@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: white;
+}
+
+section {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    font-family: 'Poppins';
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li:first-child {
+   position: relative;
+}
+
+li:first-child::after {
+    content: "";
+    position: absolute;
+    margin: auto;
+    height: 3px;
+    background: #000;
+    width: 65%;
+    bottom: 0;
+    left: 15px;
+    top: 25px;
+    
+
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+svg {
+    width: 24px;
+    height: 24px;
+}
+
+.nav-button {
+    padding: 3px 40px;
+    background: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    border: 3px solid black;
+}
+
+.hero-container {
+    width: 80%;
+}
+
+.square {
+    position: relative;
+    top: 280px;
+    left: 80px;
+}
+
+.square img {
+    width: 400px;
+    height: 300px
+}
+
+.hero-img {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    width: 400px;
+    height: 500px;
+}
+
+.globe {
+    position: absolute;
+    left: 54%;
+}
+
+.star img, .star-1 img, .globe img {
+    width: 50px;
+    height: 50px;
+}
+
+.star {
+    position: absolute;
+    right: 180px;
+    top: 240px;
+}
+
+.hero-heading {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    font-size: 60px;
+}
+
+.hero-description {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    width: 620px;
+    color: grey;
+    right: 200px;
+    top: 50%;
+    font-size: 14px;
+    text-align: center;
+}
+
+.btn-group {
+    display: flex;
+    position: absolute;
+    right: 340px;
+    top: 67%;
+    gap: 20px;
+   
+}
+
+button {
+    background: none;
+    padding: 3px 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    
+}
+
+.button-email {
+    padding: 3px 30px;
+    font-weight: bold;
+    color: grey;
+}
+
+.contact-heading {
+    position: absolute;
+    bottom: 15%;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    right: 30%;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.icons {
+    display: flex;
+    position: absolute;
+    bottom: 9%;
+    right: 27%;
+    gap: 25px;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.button-join {
+    background-color: black;
+    color: white;
+}
+
+.star-1 {
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+}
+
