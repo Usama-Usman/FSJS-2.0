@@ -56,6 +56,14 @@
 
 <br>
 
+## Project 07 <br>
+![Image](./HTML%20and%20CSS%20Projects/Project-07/ScreenShot/snap-project-07-1.png)
+
+[Project-07 Github Link](./HTML%20and%20CSS%20Projects/Project-07)   
+[Project-07 live link](https://uu02344-creditcard-landing-page.netlify.app/)
+
+<br>
+
 # My Tailwind Projects
 
 ## VS Code Clone <br> 
