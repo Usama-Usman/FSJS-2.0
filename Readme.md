@@ -64,6 +64,14 @@
 
 <br>
 
+## Project 08 <br>
+![Image](./HTML%20and%20CSS%20Projects/Project-08/SnapShot/snap-project-08-1.png)
+
+[Project-08 Github Link](./HTML%20and%20CSS%20Projects/Project-08)   
+[Project-08 live link](https://uu02344-beats.netlify.app/)
+
+<br>
+
 # My Tailwind Projects
 
 ## VS Code Clone <br> 
