@@ -461,12 +461,12 @@ input:focus {
   gap: 20px;
 }
 
-.up-arrow {
+.up-arrow-icon {
   position: absolute;
   right: 1%;
 }
 
-.twitter {
+.twitter-icon {
   position: absolute;
   width: 24px;
   height: 24px;
