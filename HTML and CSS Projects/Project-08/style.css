@@ -18,6 +18,8 @@ body {
   margin: 0 auto;
 }
 
+
+
 .nav {
   display: flex;
   height: 120px;
@@ -79,11 +81,46 @@ body {
   font-size: 70px;
   font-weight: 700;
   margin-bottom: 50px;
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-delay: 0.05s;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  80% {
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
 
 .content-div h3 {
   font-weight: 600;
   margin-bottom: 20px;
+  animation-name: moveInRight;
+  animation-delay: 0.05s;
+  animation-duration: 1s;
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  80% {
+    transform: translateX(-20px);
+  }
+
+  100% {
+    transform: translate(0);
+  }
 }
 
 .content-div p {
@@ -101,7 +138,24 @@ body {
   padding: 10px 20px;
   border-radius: 10px;
   align-items: center;
+  animation-name: moveUp;
+  animation-duration: 1s;
+  animation-delay: 0.05s;
 }
+
+@keyframes moveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+
 
 .btn-div:hover {
   cursor: pointer;
