@@ -1,5 +1,5 @@
 <!-- Intro -->
-# All About Live-Class-Project-5
+# All About Live-Class-Project-8
 
 <!-- Social Links -->
 [![LinkedIn][linkedin-shield]][linkedin-url]
@@ -13,11 +13,16 @@
 ## About The Project
 <br>
 
-![Project 5](./ScreenShot/snap-project-05.png)
+![Project 8](./SnapShot/snap-project-08-1.png)
+![Project 8](./SnapShot/snap-project-08-2.png)
+![Project 8](./SnapShot/snap-project-08-3.png)
+![Project 8](./SnapShot/snap-project-08-4.png)
+![Project 8](./SnapShot/snap-project-08-5.png)
+![Project 8](./SnapShot/snap-project-08-6.png)
 
 <br>
 
-Here is a Screen-Shot of my project-5 and I used in this project is Flexbox. For readme files I used markdown technology.
+Here is a Screen-Shot of my project-8 and I used in this project is Flexbox. For readme files I used markdown technology.
 <br>
 <br>
 
@@ -27,7 +32,7 @@ This project is presently deployed in Netlify Service.
 
 
 
-[Live Project URL](https://uu02344-headphones-landing-page.netlify.app/)
+[Live Project URL](https://uu02344-beats.netlify.app/)
 <br>
 
 
