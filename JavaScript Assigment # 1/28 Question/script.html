@@ -1,0 +1,43 @@
+<!-- //  28. Write a program to print the given patterns using the loops-
+// 	a. Print a triangle pattern, if the given input is 3 then the pattern should be similar to the given output
+// 	   *
+// 	   **
+// 	   ***
+	
+// 	b. Print a square pattern, if the input is 3 then the output should be similar to the given output
+// 	   ***
+// 	   ***
+// 	   ***
+
+// 	c. Print a pyramid pattern, if the input is 3 then the output should be similar to the given output
+// 	     *
+// 	    ***
+//       *****  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let i, j, spaces;
+      // let k = 1;
+      let z = 1;
+
+      for (i = 1; i <= 3; i++) {
+        for (spaces = 1; spaces <= 20 - z; spaces++) {
+          document.write("&nbsp;");
+        }
+        for (j = 1; j <= i; j++) {
+          document.write("*" + "&nbsp;");
+        }
+        document.write("<br>");
+        z = z + 2;
+      }
+    </script>
+  </body>
+</html>

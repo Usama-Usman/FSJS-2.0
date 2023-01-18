@@ -1,0 +1,27 @@
+<!-- 13. Get user input using prompt(“Enter your age:”). If user is 18 or older ,
+ give feedback:'You are old enough to drive' but if not 18 give another feedback 
+ stating to wait for the number of years he needs to turn 18. !-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello JavaScript</h1>
+
+    <script>
+        const age = prompt('Enter you Age');
+        console.log(age);
+
+        if(age >=18) {
+            console.log('You are old enough to drive!');
+        } else {
+            console.log(`To wait for the ${18 - age} number of years he needs to turn 18`);
+        }
+    </script>
+</body>
+</html>
