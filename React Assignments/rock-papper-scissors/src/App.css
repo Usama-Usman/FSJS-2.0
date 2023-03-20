@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.heading {
+  font-size: 50px;
+}
+
+.score {
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.choice {
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+}
+
+.computer-hand {
+  width: 250px;
+}
+
+.user-hand {
+  width: 250px;
+  transform: rotateY(180deg);
+}
+
+.button {
+  border: none;
+  background-color: red;
+  width: 140px;
+  height: 60px;
+  text-transform: uppercase;
+  font-weight: bold ;
+  margin-right: 10px;
+  color: #fff;
+  margin-bottom: 20px;
+  cursor: pointer;
+  padding: 0 10px;
+  margin:  25px 10px;
+}
